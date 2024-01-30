@@ -9,7 +9,9 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tlalumnoAula"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:tabTextColor="#222A5A"
+        app:tabIndicatorColor="#222A5A">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
