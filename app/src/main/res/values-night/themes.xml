@@ -2,14 +2,23 @@
     <!-- Base application theme. -->
     <style name="Theme.App2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/guinda</item>
         <item name="colorPrimaryVariant">@color/azul_marino</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/azul_marino2</item>
-        <item name="colorSecondaryVariant">@color/azul_marino2</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">#3D4367</item>
+        <item name="colorSecondaryVariant">#FFFFFF</item>
+        <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:windowBackground">@color/white</item><!--Color de fondo-->
+    </style>
+    <style name="textosnegros">
+        <item name="android:textColor">@color/black</item><!--Color de la letra-->
+    </style>
+    <style name="textogris">
+        <item name="android:textColor">@color/gris</item>
     </style>
 </resources>

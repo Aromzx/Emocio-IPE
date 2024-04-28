@@ -7,15 +7,15 @@
     tools:context=".fragmentAlumnoAula.perfilAlumnoFragment">
 
     <ImageView
-        android:id="@+id/fotoperfil"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        android:background="@drawable/fotoperfil"
-        app:layout_constraintVertical_bias="0.08"
+        android:id="@+id/ivImagenUsuario"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/iconousuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,6 +36,7 @@
         android:layout_width="220dp"
         android:layout_height="45dp"
         android:background="@drawable/input_personalizado"
+        android:textColorHint="@color/gris"
         android:hint="Nombres del estudiante"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
@@ -69,6 +70,7 @@
         android:layout_height="45dp"
         android:background="@drawable/input_personalizado"
         android:hint="Apellidos del estudiante"
+        android:textColorHint="@color/gris"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:textSize="14dp"
@@ -100,6 +102,7 @@
         android:layout_width="220dp"
         android:layout_height="45dp"
         android:background="@drawable/input_personalizado"
+        android:textColorHint="@color/gris"
         android:hint="Correo del estudiante"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"

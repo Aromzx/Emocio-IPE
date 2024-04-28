@@ -7,7 +7,6 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.example.app2.fragmentAlumnoAula.cursosAlumnoFragment;
 import com.example.app2.fragmentAlumnoAula.planesFragment;
-import com.example.app2.fragmentAlumnoAula.logrosAlumnoFragment;
 import com.example.app2.fragmentAlumnoAula.perfilAlumnoFragment;
 
 public class MyViewPagerAdapterAlumno extends FragmentStateAdapter {
@@ -23,10 +22,8 @@ public class MyViewPagerAdapterAlumno extends FragmentStateAdapter {
             case 0:
                 return new cursosAlumnoFragment();
             case 1:
-                return new logrosAlumnoFragment();
-            case 2:
                 return new planesFragment();
-            case 3:
+            case 2:
                 return new perfilAlumnoFragment();
             default:
                 return new cursosAlumnoFragment();
@@ -34,6 +31,6 @@ public class MyViewPagerAdapterAlumno extends FragmentStateAdapter {
     }
     @Override
     public int getItemCount() {
-        return 4;
+        return 3;
     }
 }

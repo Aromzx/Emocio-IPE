@@ -3,10 +3,11 @@
     <color name="guinda">#680832</color>
     <color name="azul_marino">#1A1F3A</color>
     <color name="azul_marino2">#1A1F3A</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
     <color name="rojo">#A11E1E</color>
     <color name="amarillo">#FFEB3B</color>
     <color name="verde">#4CAF50</color>
     <color name="azul">#3F51B5</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gris">#595959</color>
 </resources>
